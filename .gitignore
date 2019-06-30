@@ -1,0 +1,5 @@
+.env
+.vscode
+*/__pyache__
+*/*/__pyache__
+db.sqlite3
