@@ -1,10 +1,10 @@
-###instalation
+### installation
 
 ...
 pipenv install
 ...
 
-###migrate to database
+### migrate to database
 
 ...
 python manage.py makemigrations

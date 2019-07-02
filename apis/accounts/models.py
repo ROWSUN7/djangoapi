@@ -9,8 +9,8 @@ class User(AbstractUser):
     role=models.CharField(choices=ROLES, max_length=1)
     email=models.EmailField(max_length=50, unique=True, verbose_name='your email')
 
-    USERNAME_FIELD='email'
-    REQUIRED_FIELDS=('username','password')
+    USERNAME_FIELD='username'
+    REQUIRED_FIELDS=('email','password')
  
 class Profile(models.Model):
     GENDER=(('Male',0), ('Female',1), ('other',2))
